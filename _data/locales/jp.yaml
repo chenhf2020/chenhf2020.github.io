@@ -1,0 +1,132 @@
+personalInformation:
+  name:
+    name: 名前
+    value: 陳惠芬
+  sex:
+    name: 性別
+    value: 女
+  email:
+    name: Email
+    value: chenhf9940601@gmail.com
+  birthDate:
+    name: 生年月日
+    value: 1993-04 
+  address:
+    name: 地址
+    value: 東京都荒川区
+  shortDescription: 日日是好日
+  position: WEB开发工程师
+  location: 日本,東京
+  language: 言語変更
+education: 
+    name: 中国集美大学誠毅学院
+    value: 工学部ソフトウェア工学科
+    date: 2012年- 2016年 
+certification: 
+    name: 日本語能力試験/N2
+    value: 2021年7月
+skillTree:
+- category_skill:
+  - skill: 
+      name: PHP
+      description: 
+      value: 90%
+  - skill: 
+      name: Python
+      description: 
+      value: 40%
+  - skill: 
+      name: codeigniter
+      description: 
+      value: 80%
+  - skill: 
+      name: symfony
+      description: 
+      value: 70%
+  categoryName: back-end Stack
+- category_skill:
+  - skill: 
+      name: HTML
+      description: 
+      value: 90%
+  - skill: 
+      name: CSS
+      description: 
+      value: 90%
+  - skill: 
+      name: JavaScript
+      description: 
+      value: 90%
+  - skill: 
+      name: jQuery
+      description: 
+      value: 70%
+  - skill: 
+      name: VueJS
+      description: 
+      value: 70%     
+  categoryName: front-end Stack
+- category_skill:
+  - skill: 
+      name: GIT
+      description: 
+      value: 90%
+  - skill: 
+      name: SVN
+      description: 
+      value: 70%
+  - skill: 
+      name: Linux
+      description: 
+      value: 70%
+  categoryName: others    
+workList:
+    - workHistory:
+      company: ECサイトの開発・運用保守(TVメーカー)
+      title: SE
+      date: 2022年11月～現在
+      position: 東京
+      description: 【業務内容】：ECサイトと外部システム連携機能を開発、メール配信、受注管理、GMO決済など機能の追加修正、また運用保守
+      descriptionShort: 【担当内容】：詳細設計、開発、総合テスト、マニュアル作成、お問い合せ対応    
+      tag: PHP,jQuery,MySQL,Windows
+    - workHistory:
+      company: 一人でamazon販売業者向けERPシステム新規構築 
+      title: SE
+      date: 2020年4月～2021年5月
+      position: テレワーク
+      description: 【業務内容】： 販売管理の効率化を実現する商品情報管理システム導入
+      descriptionShort: 【担当内容】：基本的な環境構築、WEBデザイン、詳細設計、開発、総合テスト   
+      tag: PHP,Vue.js,MySQL,Windows
+    - workHistory:
+      company: 株式会社南京争鋒情報　情報サービス本部 アプリケーション再構築
+      title: PG
+      date: 2018年4月 ～ 2020年10月
+      position: 南京
+      description: 【業務内容】： 金融業向けアプリケーションおいて、APIの呼び出し、現状分析から担当。
+      descriptionShort: 【担当内容】：詳細設計、開発、総合テスト
+      tag: PHP,Memcached,Unix
+    - workHistory:
+      company: 株式会社南京争鋒情報　情報サービス本部 海運に関する総合情報サイト機能追加・保守
+      title: SE 
+      date: 2018年4月～2019年4月 
+      position: 南京
+      description: 【業務内容】：海運に関する総合情報サイトへの機能追加、追加機能についての打合せから前任者より引継ぎ、仕様の確定・改修・納品・インフラを担当。
+      descriptionShort: 【担当内容】：要件定義、詳細設計、テスト、開発、インフラ、お問い合せ対応
+      tag: PHP,jQuery,MySQL,Unix
+    - workHistory:
+      company: 江苏艾康生物医药研发有限公司
+      title: SE
+      date: (2017 - 2018) 
+      position: 南京
+      description: 【業務内容】：売上・在庫管理システム開発・保守 自社の業務によってデータスパイダー
+      descriptionShort: 【担当内容】：基本的な環境構築、WEBデザイン、詳細設計、開発、テスト
+      tag: PHP,jQuery,MySQL,Unix
+    # - workHistory:
+    #   company: 厦门欣旅通科技有限公司
+    #   title: Web Developer
+    #   date: 2016 - 2017
+    #   position: 厦门
+    #   description: 工作内容：主要负责公司承接的旅行社的 ERP 系统，以及电脑版和移动端的官网程序的开发维护以 及参与数据库的设计和优化。该系统及官网运用 PHP的smarty 模板技术和 JS+AJAX 技术等。参与的开发模块：移动版官网旅游签证模块的开发，电脑版和移动版官网旅游游记模块，电脑版和 移动版的团购活动和 ERP 系统的团购活动模块，ERP 系统、移动版以及电脑版官网的各种线路推荐功能的整理等。
+    #   tag: PHP,JavaScript
+title: Experience
+

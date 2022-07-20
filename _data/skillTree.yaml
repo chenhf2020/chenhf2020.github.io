@@ -1,0 +1,39 @@
+---
+- category_skill:
+  - skill: 
+      name: PHP
+      description: PHP
+      value: 90%
+  - skill: 
+      name: Python
+      description: Python
+      value: 90%
+  categoryName: back-end Stack
+- category_skill:
+  - skill: 
+      name: HTML
+      description: HTML
+      value: 90%
+  - skill: 
+      name: CSS
+      description: CSS
+      value: 90%
+  - skill: 
+      name: JavaScript
+      description: JavaScript
+      value: 90%
+  categoryName: front-end Stack
+- category_skill:
+  - skill: 
+      name: GIT
+      description: GIT
+      value: 90%
+  - skill: 
+      name: SVN
+      description: SVN
+      value: 90%
+  categoryName: others
+
+# https://echarts.apache.org/examples/zh/editor.html?c=sunburst-book
+# https://echarts.apache.org/examples/zh/editor.html?c=map-projection-globe
+# https://echarts.apache.org/examples/zh/editor.html?c=bar-negative2

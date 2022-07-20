@@ -1,0 +1,37 @@
+workList:
+    - workHistory:
+      company: 独立开发-亚马逊选品提报系统
+      title: Web Developer
+      date: 2020 - 2021
+      position: 233
+      description: 采用Vue+ElementUI开发方案，这个项目主要是录入选品的信息以及开展选品完成后的后续发货流程。我在此项目负责了前期界面研究以及页面交互的设计和整个网站的前端开发工作。该项目的主要模块是复杂的选品提报流程和选品的管理，以及后续围绕录入的选品数据所衍生的采购以及所属店铺及发货退货等模块。还有基本的用户组别和页面权限动态展示等模块。    
+      tag: PHP,JavaScript
+    - workHistory:
+      company: 南京争锋信息科技有限公司-涨乐金融相关项目
+      title: Web Developer
+      date: 2019 - 2020
+      position: 南京
+      description: 工作内容： 独立负责项目组内的中间件开发工作，配合前端和后台微服务的开发工作。
+      tag: PHP,JavaScript
+    - workHistory:
+      company: 南京争锋信息科技有限公司 嘟嘟找船项目
+      title: Web Developer
+      date: (2018 - 2019)  
+      position:
+      description: 工作内容： 负责pc 版官网、M 版官网以及管理后台系统的BUG修复以及根据客户要求以及根据UI设计师提供的设计图对新功能的迭代。该项目设计的技术栈有jQuery+AJAX等。参与的开发内容： pc 版以及M 版官网找船功能以及找货模块以及保险下单模块等页面的开发。管理后台系统的船舶定位功能模块和发布船货功能模块等等页面的开发。  
+      tag: PHP,JavaScript
+    - workHistory:
+      company: 江苏艾康生物医药研发有限公司
+      title: Web Developer
+      date: (2017 - 2018) 
+      position: 南京
+      escription: 工作内容：主要根据公司需求，在LAMP 环境中Bootstarp 以及 jQuery+AJAX 技术框架根据设计图完成页面制作。参与的开发模块：公司网站的栏目内容管理模块，询单模块的部分内容的页面开发，数据采集系统的分析数据模块和采集数据模块的页面等交互设计以及页面开发。
+      tag: PHP,JavaScript
+    - workHistory:
+      company: 厦门欣旅通科技有限公司
+      title: Web Developer
+      date: 2016 - 2017
+      position: 厦门
+      description: 工作内容：主要负责公司承接的旅行社的 ERP 系统，以及电脑版和移动端的官网程序的开发维护以 及参与数据库的设计和优化。该系统及官网运用 PHP的smarty 模板技术和 JS+AJAX 技术等。参与的开发模块：移动版官网旅游签证模块的开发，电脑版和移动版官网旅游游记模块，电脑版和 移动版的团购活动和 ERP 系统的团购活动模块，ERP 系统、移动版以及电脑版官网的各种线路推荐功能的整理等。
+      tag: PHP,JavaScript
+title: Experience

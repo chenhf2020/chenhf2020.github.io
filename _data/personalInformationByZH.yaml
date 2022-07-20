@@ -1,0 +1,23 @@
+personalInformation:
+  name:
+    name: 姓名
+    value: 陈惠芬
+  sex:
+    name: 性别
+    value: 女
+  email:
+    name: Email
+    value: chenhf9940601@gmail.com
+  birthDate:
+    name: 出生年月
+    value: 1993-04 
+  address:
+    name: 地址
+    value: 1993-04 
+  shortDescription: 
+  shortDescription: //ziwojieshao
+  position: WEB开发工程师
+  location: 日本，东京
+  languga: zh
+  zh: 中文
+

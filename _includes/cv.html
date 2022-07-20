@@ -1,0 +1,234 @@
+<!-- .resume -->
+<div id="resume" class="content_2">
+    <div class="modal" tabindex="-1" role="dialog" style="z-index: 1000;background-color: black;" id="modal-sun">
+     
+        <div class="modal-dialog" role="document" >
+            <div class="modal-body">333
+
+
+          </div>
+        </div>
+  </div>
+
+    <!-- .title -->
+<h1 class="h-bloc">Resume - Personal Info</h1> 
+<div class="row">
+
+   <!-- .resume-right -->
+    <div class="col-md-6">
+    {% assign skillTreeToJs = '123'%}
+
+    {% for category in site.data.locales.[language].skillTree %}
+        <div class="title_content" style="float: none;">
+             <div class="text_content">{{ category.categoryName }}</div>
+             <div class="clear"></div>
+       </div>
+       {% for skillDetail in category.category_skill %}
+       <div class="skills">
+        <!-- .skillbar -->
+        <div class="skillbar clearfix" data-percent="{{ skillDetail.skill.value }}">
+            <div class="skillbar-title"><span>{{ skillDetail.skill.name }}</span></div>
+            <div class="skillbar-bar"></div>
+            <div class="skill-bar-percent">{{ skillDetail.skill.value }}</div>
+        </div>
+    </div>
+
+        {% endfor %}
+
+        <!-- /.skillbar -->
+    {% endfor %}
+       
+        <!-- .title_content -->
+        <div class="title_content" style="float: none;">
+            <div class="text_content">Language Skills</div>
+            <div class="clear"></div>
+        </div>
+        <!-- /.title_content -->
+        
+        <div class="skills">
+            <!-- .skillbar -->
+            <div class="skillbar clearfix" data-percent="90%">
+                <div class="skillbar-title"><span>English</span></div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">90%</div>
+            </div>
+            <!-- /.skillbar -->
+            
+            <!-- .skillbar -->
+            <div class="skillbar clearfix " data-percent="80%">
+                <div class="skillbar-title"><span>French</span></div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">80%</div>
+            </div>
+            <!-- /.skillbar -->
+            
+            <!-- .skillbar -->
+            <div class="skillbar clearfix " data-percent="50%">
+                <div class="skillbar-title"><span>Spanish</span></div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">50%</div>
+            </div>
+            <!-- /.skillbar -->
+            
+            <!-- .skillbar -->
+            <div class="skillbar clearfix " data-percent="60%">
+                <div class="skillbar-title"><span>Swiss</span></div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">60%</div>
+            </div>
+            <!-- /.skillbar -->
+        </div>
+        
+        
+        <!-- .title_content -->
+        <div class="title_content" style="float: none;">
+            <div class="text_content">My Resume</div>
+            <div class="clear"></div>
+        </div>
+        <!-- /.title_content -->
+        
+        <!-- .download_resume -->
+        <a class="download" style="margin:0;float: left;" href="#">
+            <span data-hover="Download My Resume"><i class="glyphicon glyphicon-download-alt"></i> Download My Resume</span>
+        </a>
+        <!-- /.download_resume -->
+
+    </div>
+     <!-- /.resume-right -->
+     
+     
+     
+     <!-- .resume-left -->
+    <div class="col-md-6 resume-left">    
+        <!-- .title_content -->
+        <div class="title_content" style="margin-bottom:5px">
+            <div class="text_content">{{ site.data.work.title }}</div>
+            <div class="clear"></div>
+        </div>
+        <!-- /.title_content -->
+        
+        <!-- .attributes -->
+        <ul class="attributes">
+            {% for workDetail in site.data.locales.[language].workList %}
+
+            <li class="first">
+                <h5>{{ workDetail.title }}  <span class="duration"><i class="fa fa-calendar color"></i> {{ workDetail.date }} </span></h5>
+                <h6><span class="fa fa-briefcase"></span> {{ workDetail.company }}</h6>
+                <p>{{ workDetail.description }}</p>
+                <p>{{ workDetail.descriptionShort }}</p>
+
+            </li>
+            {% endfor %}
+
+            <!-- <li>
+                <h5>Front-End Developer <span class="duration"><i class="fa fa-calendar color"></i> 2010 - 2011</span></h5>
+                <h6><span class="fa fa-briefcase"></span> Name of Company</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
+            </li> -->
+
+        </ul>
+        <!-- /.attributes -->
+        <br>
+        
+        <!-- .title_content -->
+        <div class="title_content">
+            <div class="text_content">Education</div>
+            <div class="clear"></div>
+        </div>
+        <!-- /.title_content -->
+        
+        <!-- .attributes -->
+        <ul class="attributes">
+            <li class="first">
+                <h5>{{ site.data.locales.[language].education.name }} <span class="duration"><i class="fa fa-calendar color"></i> {{ site.data.locales.[language].education.date }}</span></h5>
+                <h6><span class="fa fa-book"></span> {{ site.data.locales.[language].education.value }}</h6>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p> -->
+            </li>
+           
+        </ul>
+        <!-- /.attributes -->
+        <br>  
+        
+        
+          <!-- .title_content -->
+        <div class="title_content">
+            <div class="text_content">Certification</div>
+            <!-- <div class="text_content">Awards</div> -->
+
+            
+            <div class="clear"></div>
+        </div>
+        <!-- /.title_content -->
+        
+        <!-- .attributes -->
+        <ul class="attributes">
+            <li class="first">
+                <h5>{{ site.data.locales.[language].certification.name }} <span class="duration"><i class="fa fa-calendar color"></i> {{ site.data.locales.[language].certification.value }}</span></h5>
+                <!-- <h6><span class="fa fa-trophy"></span> Name of Institute</h6> -->
+                <!-- <p>Emi Phasellus congue auctor risuspon, eget males. Pellentes que un imperdiet, odio quis orn sollicitud. Sed vitae lectus elementum mauris.</p> -->
+            </li>
+  
+        </ul>
+        <!-- /.attributes -->
+        <br>  
+        
+    </div>
+    <!-- /.resume-left -->
+</div>
+
+<div style="clear: both"></div>  
+  
+  
+<!-- client reference -->
+<div class="row">
+<div class="col-md-12">   
+    
+<div class="reference clearfix"> 
+            
+         <!-- .title_content -->
+        <div class="title_content" style="margin-bottom:5px">
+            <div class="text_content">Client reference</div>
+            <div class="clear"></div>
+        </div>
+        <!-- /.title_content -->
+        
+
+        <ul>
+            <li class="clearfix">
+                <img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
+                <p>“Many desktop publishing packages and web page editors now use Lorem Ipsum as their default will model text, and a search for 'lorem ipsum' hope is uncover many web sites still”</p>
+                <span>John Doe, UX Designer</span>
+            </li>
+            <li class="clearfix">
+                <img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
+                <p>“very nice colleague she always helped me out if i didnt know something editors now use Lorem Ipsum as their default”</p>
+                <span>Leia Calvi, UX Designer</span>
+            </li>
+            <li class="clearfix">
+                <img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
+                <p>“old colleague and now close friend, she is really sweet and helpfull packages and web page editors now use Lorem Ipsum as their default will model text”</p>
+                <span>Maria Callas, UX Designer</span>
+            </li>
+        </ul>
+</div>
+</div>
+
+     
+<div style="clear: both"></div>   
+</div>
+
+</div>
+<!-- End .resume -->
+{% assign someContent = "This is some content" %}
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", () => {
+    // console.log('cvsss')
+    // const a = "{{ page.skillTreeToJs }}";
+    // console.log(a)
+    // console.log('ssscfdvsf')
+    // console.log("{{ page.someContent }}")
+
+  });
+
+</script>

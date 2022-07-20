@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="no-js">
+<!--<![endif]-->
+{% include head.html %}
+<body>
+
+      <div class="modal" tabindex="-1" role="dialog" style="z-index: 1000;background-color: rgba(255,255,255);;display: block;"  id="language-modal">
+            <div id="modal-content" class="modal-dialog" role="document" style="display: none;">
+                  <div class="modal-content" >
+                        <div class="modal-header">
+                              <h5 class="modal-title text-light " ><i class="fa fa-cogs" aria-hidden="true"></i>{{page.url}}
+                              </h5>
+                        </div>
+                        <div class="modal-body">
+                              <div class="row ">
+                                    <div class="col-sm-6 language">
+                                          <div class="card img-rounded">
+                                     <img class="card-img-top" src="../assets/images/icons8-CN-96.png" alt="Card image cap">
+                                     <div class="card-body text-center">
+                                          <span  class="btn-link  text-light language-change" id="language-change-cn"  ><h5 class="card-title">中文{{ myvar }}</h5></span>
+                                       <!-- <button type="button" class="btn btn-link  text-light " ><h5 class="card-title">中文</h5></button> -->
+                                     </div>
+                                          </div>
+                                     </div>
+                                    <div class="col-sm-6 language">
+                                          <div class="card img-rounded">
+                                     <img class="card-img-top" src="../assets/images/icons8-JP-96.png" alt="Card image cap">
+                                     <div class="card-body text-center">
+                                          <span class="btn-link  text-light language-change" id="language-change-jp"><h5 class="card-title">日本語</h5></span>
+                                     </div>
+                                          </div>
+                                     </div>
+                              </div>
+
+                        </div>
+                  </div>
+            </div>
+            <div id="modal-loading" class="modal-dialog" role="document" >
+                  <div class="modal-body">
+                        <div class="row ">
+                               <img src="../images/spinner.gif"/>
+                         </div>
+                  </div>
+
+            </div>
+      </div>
+    <!-- .slideshow -->
+<ul class="cb-slideshow" id="cb_slideshow" style="display:none">
+      <li><span>Image 01</span><div></div></li>
+      <li><span>Image 02</span><div></div></li>
+      <li><span>Image 03</span><div></div></li>
+      <li><span>Image 04</span><div></div></li>
+      <li><span>Image 05</span><div></div></li>
+      <li><span>Image 06</span><div></div></li>
+  </ul> 
+  <!-- /.slideshow --> 
+ 
+ </div>
+ <!-- End Profile Image -->
+      <script type="text/javascript">
+
+function setLanguage(el,name) {
+                  localStorage.setItem('language', name);
+                  const languageModal = document.getElementById('language-modal')
+                  languageModal.style.display = "none";
+}
+
+const elCN = document.getElementById("language-change-cn");
+const elJP = document.getElementById("language-change-jp");
+elCN.addEventListener("click", function(){setLanguage(elCN,'cn')}, false);
+elJP.addEventListener("click", function(){setLanguage(elJP,'jp')}, false);
+
+      </script>
+      {{content}}
+      <!-- </div> -->
+
+      <!-- {% include footer.html %} -->
+
+      {% include scripts.html %}
+</body>
+
+</html>
