@@ -12,7 +12,7 @@ personalInformation:
     name: 生年月日
     value: 1993-04 
   address:
-    name: 地址
+    name: 住所
     value: 東京都荒川区
   shortDescription: 日日是好日
   position: WEB开发工程师
