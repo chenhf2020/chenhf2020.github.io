@@ -8,7 +8,7 @@
  		
         <!--About me-->
         <div class="title_content">
-            <div class="text_content"> {{ site.data.personalInformationByZH.personalInformation.name.value }}</div>
+            <div class="text_content"> {{ site.data.locales.[language].personalInformation.name.value }}</div>
             <div class="clear"></div>
         </div>
 
@@ -16,29 +16,29 @@
 
             <li>
                 <i class="glyphicon glyphicon-user"></i>
-                <label> {{ site.data.personalInformationByZH.personalInformation.name.name }}</label>
-                <span class="value">{{ site.data.personalInformationByZH.personalInformation.name.value }}</span>
+                <label> {{ site.data.locales.[language].personalInformation.name.name }}</label>
+                <span class="value">{{ site.data.locales.[language].personalInformation.name.value }}</span>
                 <div class="clear"></div>
             </li>
 
             <li>
                 <i class="glyphicon glyphicon-calendar"></i>
-                <label>{{ site.data.personalInformationByZH.personalInformation.birthDate.name }}</label>
-                <span class="value">{{ site.data.personalInformationByZH.personalInformation.birthDate.value }}</span>
+                <label>{{ site.data.locales.[language].personalInformation.birthDate.name }}</label>
+                <span class="value">{{ site.data.locales.[language].personalInformation.birthDate.value }}</span>
                 <div class="clear"></div>
             </li>
 
             <li> 
                 <i class="glyphicon glyphicon-map-marker"></i>
-                <label>{{ site.data.personalInformationByZH.personalInformation.address.name }}</label>
-                <span class="value">{{ site.data.personalInformationByZH.personalInformation.address.value }}</span>
+                <label>{{ site.data.locales.[language].personalInformation.address.name }}</label>
+                <span class="value">{{ site.data.locales.[language].personalInformation.address.value }}</span>
                 <div class="clear"></div>
             </li>
 
             <li>
                 <i class="glyphicon glyphicon-envelope"></i>
-                <label>{{ site.data.personalInformationByZH.personalInformation.email.name }}</label>
-                <span class="value">{{ site.data.personalInformationByZH.personalInformation.email.value }}</span>
+                <label>{{ site.data.locales.[language].personalInformation.email.name }}</label>
+                <span class="value">{{ site.data.locales.[language].personalInformation.email.value }}</span>
                 <div class="clear"></div>
             </li>
 
@@ -61,7 +61,7 @@
 
         <!-- <p style="margin-bottom:20px">
             <i class="fa fa-quote-left"></i>       
-            {{ site.data.personalInformationByZH.personalInformation.shortDescription }}
+            {{ site.data.locales.[language].personalInformation.shortDescription }}
         </p>
         
          <p style="margin-bottom:20px">
