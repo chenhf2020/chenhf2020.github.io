@@ -114,7 +114,7 @@ workList:
       title: Web Developer
       date: (2017 - 2018) 
       position: 南京
-      escription: 工作内容：主要根据公司需求，在LAMP 环境中Bootstarp 以及 jQuery+AJAX 技术框架根据设计图完成页面制作。参与的开发模块：公司网站的栏目内容管理模块，询单模块的部分内容的页面开发，数据采集系统的分析数据模块和采集数据模块的页面等交互设计以及页面开发。
+      description: 工作内容：主要根据公司需求，在LAMP 环境中Bootstarp 以及 jQuery+AJAX 技术框架根据设计图完成页面制作。参与的开发模块：公司网站的栏目内容管理模块，询单模块的部分内容的页面开发，数据采集系统的分析数据模块和采集数据模块的页面等交互设计以及页面开发。
       tag: PHP,jQuery,MySQL,Unix
     - workHistory:
       company: 厦门欣旅通科技有限公司
