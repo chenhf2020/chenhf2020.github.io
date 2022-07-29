@@ -84,7 +84,7 @@ workList:
     - workHistory:
       company: 商城开发
       title: SE
-      date: 2022年11月～現在
+      date: 2021年11月～現在
       position: 东京
       description: 电视机贩卖商城的开发和运维。我在此项目全权负责了外部系统的数据交换功能,其次还有购物流程，GMO支付接口，邮件发送等其他功能的追加修改和维护。
       tag: PHP,jQuery,MySQL,Windows
