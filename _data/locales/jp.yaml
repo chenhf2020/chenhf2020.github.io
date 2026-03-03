@@ -12,10 +12,10 @@ personalInformation:
     name: 生年月日
     value: 1993-04 
   address:
-    name: 住所
+    name: 地址
     value: 東京都足立区
   shortDescription: 日日是好日
-  position: SE
+  position: WEB开发工程师
   location: 日本,東京
   language: 言語変更
 education: 
@@ -23,8 +23,8 @@ education:
     value: 工学部ソフトウェア工学科
     date: 2012年- 2016年 
 certification: 
-    name: 日本語能力試験/N1
-    value: 2022年12月
+    name: 日本語能力試験/N2
+    value: 2021年7月
 skillTree:
 - category_skill:
   - skill: 
@@ -35,6 +35,18 @@ skillTree:
       name: Python
       description: 
       value: 40%
+  - skill: 
+      name: C#
+      description: 
+      value: 20%
+  - skill: 
+      name: C#
+      description: 
+      value: 20%
+  - skill: 
+      name: Laravel
+      description: 
+      value: 80%
   - skill: 
       name: codeigniter
       description: 
@@ -82,45 +94,102 @@ skillTree:
   categoryName: others    
 workList:
     - workHistory:
-      company: ECサイトの開発・運用保守(TVメーカー)
+      company: 協栄情報株式会社
       title: SE
-      date: 2021年11月～現在
+      date: 2022-現在
       position: 東京
       description: 【業務内容】：ECサイトと外部システム連携機能を開発、メール配信、受注管理、GMO決済など機能の追加修正、また運用保守
       descriptionShort: 【担当内容】：詳細設計、開発、総合テスト、マニュアル作成、お問い合せ対応    
       tag: PHP,jQuery,MySQL,Windows
+      projects:
+        - name: ①キャッシュレス決済（某ペイ）加盟店様向け管理サイトの改修および追加機能開発、運用保守
+          period: 2022年9月 ～ 2024年4月
+          summary:
+            - 売上管理・入金機能の設計および追加開発
+            - 既存機能改修に伴う影響調査および仕様整理
+            - Laravelによる管理画面の実装・改善
+            - 障害調査・問い合わせ対応
+            - 要件定義から設計・開発・テスト・運用保守まで一貫して担当
+          tech: PHP / Laravel / MySQL / jQuery
+        - name: ②-ECサイトのサーバーEOLに伴うバージョンアップ対応
+          period: 2025年7月 ～ 2026年1月
+          summary:
+            - Roo Codeを活用した開発プロジェクトにおいて、生成コードの品質レビューを担当
+            - 300件以上のPRレビューを実施し、コード品質および保守性の向上に貢献。
+          tech: PHP／Perl／jQuery/MySQL/Windows/Roo Code
+        - name: ③商品情報管理SaaSにおける機能追加開発
+          period: 2026年1月 ～ 2026年4月
+          summary:
+            - 顧客要望に基づく機能追加およびバッチ処理追加を担当
+            - 既存のC# Script実行モデルの老朽化に伴い、分離ワーカー方式への移行を実施。技術調査・影響分析を行い、設計から再構築まで対応。
+          tech: PHP/C#/Vue.js/SQLServer/Windows/AzureFunction/Cosmos DB
     - workHistory:
-      company: 一人でamazon販売業者向けERPシステム新規構築 
+      company: SMHC株式会社
       title: SE
-      date: 2020年4月～2021年5月
+      date: 2022年～2023年
+      position: 東京
+      description: 【業務内容】：ECサイトと外部システム連携機能を開発、メール配信、受注管理、GMO決済など機能の追加修正、また運用保守
+      descriptionShort: 【担当内容】：詳細設計、開発、総合テスト、マニュアル作成、お問い合せ対応    
+      tag: PHP,jQuery,MySQL,Windows
+      projects:
+        - name: 売上・入金管理機能改修 ECサイトの開発・運用保守(TVメーカー)
+          period: 2022年9月〜2023年9月
+          summary:
+            - 外部システム連携機能を中心に、受注管理・メール配信・GMO決済連携機能の開発および改修を担当
+          tech: PHP,jQuery,MySQL,Windows
+    - workHistory:
+      company: フリーランス 
+      title: SE
+      date: 2020年～2021年
       position: テレワーク
       description: 【業務内容】： 販売管理の効率化を実現する商品情報管理システム導入
       descriptionShort: 【担当内容】：基本的な環境構築、WEBデザイン、詳細設計、開発、総合テスト   
       tag: PHP,Vue.js,MySQL,Windows
+      projects:
+        - name: Amazon販売業者向けERPシステム新規構築(個人受託開発)
+          period: 2020年4月 ～ 2021年5月
+          summary:
+            - 外要件定義から設計・実装・テストまで一貫して単独で販売管理の効率化を実現する商品情報管理システム導入
+          tech: PHP/Vue.js/MySQL/Windows
     - workHistory:
-      company: 株式会社南京争鋒情報　情報サービス本部 アプリケーション再構築
+      company: (株)南京争鋒情報
       title: PG
-      date: 2018年4月 ～ 2020年10月
+      date: 2018年 ～ 2020年
       position: 南京
       description: 【業務内容】： 金融業向けアプリケーションおいて、APIの呼び出し、現状分析から担当。
       descriptionShort: 【担当内容】：詳細設計、開発、総合テスト
-      tag: PHP,Memcached,Unix
+      tag: PHP,Memcached,
+      projects:
+        - name: ①金融商品向け業務アプリケーション開発・保守
+          period: 2019年4月 ～ 2020年10月
+          summary:
+            - フロントエンドから受信したAPIリクエストを中間層で制御し、バックエンドへ連携する処理を実装
+            - テスト工程で報告された不具合の調査・修正対応を実施
+          tech: PHP/Memcached/Unix
+        - name: ②海運に関する総合情報サイト機能追加・保守
+          period: 2020年4月 ～ 2021年5月
+          summary:
+            - 追加機能に関する打ち合わせ、仕様確定、改修、インフラ管理
+          tech: PHP/jQuery/MySQL/Unix
     - workHistory:
-      company: 株式会社南京争鋒情報　情報サービス本部 海運に関する総合情報サイト機能追加・保守
-      title: SE 
-      date: 2018年4月～2019年4月 
-      position: 南京
-      description: 【業務内容】：海運に関する総合情報サイトへの機能追加、追加機能についての打合せから前任者より引継ぎ、仕様の確定・改修・納品・インフラを担当。
-      descriptionShort: 【担当内容】：要件定義、詳細設計、テスト、開発、インフラ、お問い合せ対応
-      tag: PHP,jQuery,MySQL,Unix
-    - workHistory:
-      company: 江苏艾康生物医药研发有限公司
+      company: (株)江蘇省艾康生物医薬
       title: SE
-      date: (2017 - 2018) 
+      date: 2017 - 2018
       position: 南京
       description: 【業務内容】：売上・在庫管理システム開発・保守 自社の業務によってデータスパイダー
       descriptionShort: 【担当内容】：基本的な環境構築、WEBデザイン、詳細設計、開発、テスト
       tag: PHP,jQuery,MySQL,Unix
+      projects:
+        - name: ①金融商品向け業務アプリケーション開発・保守
+          period: 2017年3月 ～ 2017年9月
+          summary:
+            - 既存機能の改修、製品情報のPDF出力などの機能開発、保守対応
+          tech: PHP/Memcached/Unix
+        - name: ②海運に関する総合情報サイト機能追加・保守
+          period: 2017年9月 ～ 2018年3月
+          summary:
+            - 外部サイトからのクローリング処理設計・実装、データ加工・整形処理の実装
+          tech: PHP/jQuery/MySQL/Unix
     # - workHistory:
     #   company: 厦门欣旅通科技有限公司
     #   title: Web Developer
