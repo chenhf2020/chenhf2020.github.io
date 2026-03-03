@@ -43,10 +43,6 @@ skillTree:
       name: symfony
       description: 
       value: 70%
-　- skill: 
-      name: Laravel
-      description: 
-      value: 80%
   categoryName: back-end Stack
 - category_skill:
   - skill: 
