@@ -94,7 +94,7 @@ skillTree:
   categoryName: others    
 workList:
     - workHistory:
-      company: 協栄情報株式会社
+      company: (株)**情報
       title: SE
       date: 2022-現在
       position: 東京
@@ -124,7 +124,7 @@ workList:
             - 既存のC# Script実行モデルの老朽化に伴い、分離ワーカー方式への移行を実施。技術調査・影響分析を行い、設計から再構築まで対応。
           tech: PHP/C#/Vue.js/SQLServer/Windows/AzureFunction/Cosmos DB
     - workHistory:
-      company: SMHC株式会社
+      company: (株)S*情報
       title: SE
       date: 2022年～2023年
       position: 東京
